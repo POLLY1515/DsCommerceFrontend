@@ -1,11 +1,14 @@
-import Catalog from "./routes/catalog";
+//import Catalog from "./routes/catalog";
+
+import ProductDetails from "./routes/productDetails";
+
 
 
 
 function App() {
   return (
-   <Catalog/>
-  );
+<ProductDetails/>
+);
 }
 
 export default App;
