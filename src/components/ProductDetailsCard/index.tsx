@@ -19,8 +19,14 @@ export default function ProductDetailsCard({product}:props){
               <h4>{product.name}</h4>
               <p>{product.description} </p>
               <div className="dsc-category-container">
-              <ProductCategory name='Eletrônicos'/>
-              <ProductCategory name='Computaodres'/>
+                {
+                  product.categories.map(item => (
+
+                    <ProductCategory key={item.id} name={item.name}/>
+
+                  ))
+                }
+                
               
               </div>
             </div>
