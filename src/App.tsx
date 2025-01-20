@@ -1,13 +1,13 @@
 //import Catalog from "./routes/catalog";
 
-import ProductDetails from "./routes/productDetails";
+import Catalog from "./routes/catalog";
 
 
 
 
 function App() {
   return (
-<ProductDetails/>
+    <Catalog/>
 );
 }
 
